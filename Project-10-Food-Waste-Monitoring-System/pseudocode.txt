@@ -1,0 +1,24 @@
+START
+INPUT item_count
+IF item_count <= 0 THEN DISPLAY "Invalid item count"
+ELSE
+ total_prepared = 0
+ total_wasted = 0
+ FOR each item
+  INPUT prepared, wasted
+  IF prepared < 0 OR wasted < 0 OR wasted > prepared THEN
+   DISPLAY "Invalid quantities"
+   STOP
+  END IF
+  add quantities to totals
+ END FOR
+ IF total_prepared = 0 THEN DISPLAY "No food was prepared"
+ ELSE
+  percentage = total_wasted / total_prepared * 100
+  DISPLAY totals and percentage
+  IF percentage > 20 THEN DISPLAY "High"
+  ELSE DISPLAY "Within Target"
+  END IF
+ END IF
+END IF
+STOP
