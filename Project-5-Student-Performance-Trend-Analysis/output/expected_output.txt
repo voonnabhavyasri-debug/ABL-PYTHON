@@ -1,0 +1,8 @@
+STUDENT PERFORMANCE TREND ANALYSIS
+Enter number of assessments (minimum 2): 3
+Enter mark for assessment 1 (0-100): 50
+Enter mark for assessment 2 (0-100): 60
+Enter mark for assessment 3 (0-100): 75
+Assessment Marks: [50.0, 60.0, 75.0]
+Average Mark: 61.67
+Performance Trend: Improved
