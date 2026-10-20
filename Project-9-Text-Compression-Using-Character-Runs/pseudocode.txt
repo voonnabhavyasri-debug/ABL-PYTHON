@@ -1,0 +1,17 @@
+START
+INPUT text
+compressed = ""
+IF text is not empty
+ current = first character
+ count = 1
+ FOR each remaining character
+  IF character = current THEN count = count + 1
+  ELSE append current and count
+       current = character
+       count = 1
+  END IF
+ END FOR
+ append current and count
+END IF
+DISPLAY compressed
+STOP
