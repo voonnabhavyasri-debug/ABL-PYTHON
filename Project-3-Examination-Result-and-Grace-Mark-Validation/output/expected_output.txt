@@ -1,0 +1,9 @@
+EXAMINATION RESULT AND GRACE-MARK VALIDATION
+Enter marks for subject 1 (0-100): 34
+Enter marks for subject 2 (0-100): 60
+Enter marks for subject 3 (0-100): 70
+
+Original marks: [34, 60, 70]
+Final marks: [35, 60, 70]
+Grace marks used: 1
+Final Result: PASS
