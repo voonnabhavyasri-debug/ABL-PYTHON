@@ -1,0 +1,4 @@
+TEXT COMPRESSION USING CHARACTER RUNS
+Enter text: aaabbc
+Original text: aaabbc
+Compressed text: a3b2c1
