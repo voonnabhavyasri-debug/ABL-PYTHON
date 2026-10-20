@@ -1,0 +1,6 @@
+STUDENT FEEDBACK SENTIMENT SCORING
+Enter student feedback: The class was excellent and helpful
+Positive words: 2
+Negative words: 0
+Sentiment score: 2
+Sentiment: Positive
