@@ -1,0 +1,20 @@
+START
+INPUT marks for subject 1, subject 2, subject 3
+IF any mark < 0 OR any mark > 100 THEN
+    DISPLAY "Invalid marks"
+ELSE
+    grace_left = 5
+    FOR each subject
+        needed = 35 - marks
+        IF needed > 0 AND needed <= grace_left THEN
+            marks = marks + needed
+            grace_left = grace_left - needed
+        END IF
+    END FOR
+    IF all final marks >= 35 THEN
+        DISPLAY "PASS"
+    ELSE
+        DISPLAY "FAIL"
+    END IF
+END IF
+STOP
