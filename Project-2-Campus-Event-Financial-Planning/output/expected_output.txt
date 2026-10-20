@@ -1,0 +1,18 @@
+CAMPUS EVENT FINANCIAL PLANNING
+Venue cost: 5000
+Equipment cost: 2000
+Catering cost: 8000
+Transport cost: 1000
+Certificate cost: 500
+Registration fee per participant: 200
+Number of registrations: 50
+Sponsorship amount: 3000
+
+----- EVENT BUDGET -----
+Total Event Cost: 16500.0
+Registration Income: 10000.0
+Sponsorship: 3000.0
+Total Available Income: 13000.0
+Surplus / Shortfall: -3500.0
+Minimum Registrations to Break Even: 68
+Current budget has a shortfall.
