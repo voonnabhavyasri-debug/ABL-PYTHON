@@ -1,0 +1,13 @@
+START
+INPUT distance_A, distance_B, efficiency, price
+IF distance_A < 0 OR distance_B < 0 OR efficiency <= 0 OR price < 0
+ DISPLAY "Invalid input"
+ELSE
+ litres_A = distance_A / efficiency
+ litres_B = distance_B / efficiency
+ cost_A = litres_A * price
+ cost_B = litres_B * price
+ DISPLAY litres and costs
+ COMPARE costs and display result
+END IF
+STOP
