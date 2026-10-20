@@ -1,0 +1,19 @@
+START
+INPUT venue, equipment, catering, transport, certificates
+INPUT fee, registrations, sponsorship
+IF any input is negative THEN
+    DISPLAY "Invalid input"
+ELSE
+    total_cost = venue + equipment + catering + transport + certificates
+    registration_income = fee * registrations
+    total_income = registration_income + sponsorship
+    balance = total_income - total_cost
+    remaining_cost = total_cost - sponsorship
+    IF fee > 0 THEN
+        minimum_registrations = CEILING(MAX(0, remaining_cost) / fee)
+    ELSE
+        minimum_registrations = 0 if sponsorship covers cost, otherwise impossible
+    END IF
+    DISPLAY totals and balance
+END IF
+STOP
