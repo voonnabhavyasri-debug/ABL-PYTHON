@@ -1,0 +1,10 @@
+FUEL CONSUMPTION AND ROUTE COMPARISON
+Enter Route A distance in km: 120
+Enter Route B distance in km: 150
+Enter vehicle efficiency in km per litre: 15
+Enter fuel price per litre: 100
+Route A fuel required: 8.0 litres
+Route A fuel cost: 800.0
+Route B fuel required: 10.0 litres
+Route B fuel cost: 1000.0
+Route A has the lower estimated fuel cost.
