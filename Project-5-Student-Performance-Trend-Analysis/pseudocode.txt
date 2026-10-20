@@ -1,0 +1,14 @@
+START
+INPUT count
+IF count < 2 THEN DISPLAY "Enter at least two assessments"
+ELSE INPUT marks
+IF any mark outside 0 to 100 THEN DISPLAY "Invalid marks"
+ELSE
+ average = sum(marks) / count
+ IF last > first THEN trend = "Improved"
+ ELSE IF last < first THEN trend = "Declined"
+ ELSE trend = "Unchanged"
+ DISPLAY marks, average, trend
+END IF
+END IF
+STOP
