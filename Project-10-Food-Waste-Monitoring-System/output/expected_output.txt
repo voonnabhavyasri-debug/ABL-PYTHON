@@ -1,0 +1,12 @@
+FOOD WASTE MONITORING SYSTEM
+Enter number of food items: 2
+Food item 1
+Prepared quantity in kg: 10
+Wasted quantity in kg: 2
+Food item 2
+Prepared quantity in kg: 5
+Wasted quantity in kg: 1
+Total food prepared: 15.0 kg
+Total food wasted: 3.0 kg
+Waste percentage: 20.0 %
+Waste level: Within Target
