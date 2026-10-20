@@ -1,0 +1,2 @@
+# Conclusion
+This project records food preparation and waste, calculates the waste percentage, and classifies the result using a simple threshold. It demonstrates loops, numeric variables, validation, and conditional statements.
