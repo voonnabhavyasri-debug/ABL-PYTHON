@@ -1,0 +1,11 @@
+START
+model_answers = ["python", "cpu", "ram"]
+correct = 0
+FOR each question
+ INPUT answer
+ normalize answer
+ IF answer = model answer THEN correct = correct + 1
+END FOR
+percentage = correct / 3 * 100
+DISPLAY correct, marks, percentage
+STOP
