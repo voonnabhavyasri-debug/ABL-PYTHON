@@ -1,0 +1,7 @@
+STRING-BASED EXAMINATION ANSWER EVALUATION
+Answer question 1: Python
+Answer question 2: CPU
+Answer question 3: RAM
+Correct Answers: 3 out of 3
+Total Marks: 3
+Percentage: 100.0 %
