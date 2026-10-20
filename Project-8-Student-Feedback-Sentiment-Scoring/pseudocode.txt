@@ -1,0 +1,10 @@
+START
+INPUT feedback
+words = lowercase feedback split into words
+count positive words and negative words
+score = positive_count - negative_count
+IF score > 0 sentiment = "Positive"
+ELSE IF score < 0 sentiment = "Negative"
+ELSE sentiment = "Neutral"
+DISPLAY counts, score, sentiment
+STOP
