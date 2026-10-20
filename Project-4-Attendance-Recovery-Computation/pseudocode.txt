@@ -1,0 +1,13 @@
+START
+INPUT total, attended, required
+IF total <= 0 OR attended < 0 OR attended > total OR required <= 0 OR required > 100
+ DISPLAY "Invalid input"
+ELSE
+ current = attended / total * 100
+ future = 0
+ WHILE (attended + future) / (total + future) * 100 < required
+  future = future + 1
+ END WHILE
+ DISPLAY current, future
+END IF
+STOP
