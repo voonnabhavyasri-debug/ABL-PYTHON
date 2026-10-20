@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#333"/></marker></defs>
+  <rect width="720" height="480" fill="white"/>
+  <g font-family="Arial,sans-serif" fill="#172033" stroke="#333" stroke-width="2" text-anchor="middle" font-size="17">
+    <text x="360" y="28" stroke="none" font-weight="bold">Examination Result and Grace-Mark Validation</text>
+    <rect x="280" y="45" width="160" height="40" rx="20" fill="#dceeff"/><text x="360" y="70" stroke="none">START</text>
+    <path d="M360 85 V105" marker-end="url(#a)" fill="none"/>
+    <rect x="180" y="110" width="360" height="55" rx="8" fill="#f4f6f8"/><text x="360" y="143" stroke="none">Input required values</text>
+    <path d="M360 165 V185" marker-end="url(#a)" fill="none"/>
+    <polygon points="360,185 485,235 360,285 235,235" fill="#fff0cf"/><text x="360" y="241" stroke="none">Inputs valid?</text>
+    <path d="M235 235 H125 V300" marker-end="url(#a)" fill="none"/><text x="175" y="220" stroke="none" font-size="14">No</text>
+    <rect x="35" y="305" width="180" height="50" rx="8" fill="#ffe2e2"/><text x="125" y="335" stroke="none">Show error</text>
+    <path d="M485 235 H595 V300" marker-end="url(#a)" fill="none"/><text x="545" y="220" stroke="none" font-size="14">Yes</text>
+    <rect x="490" y="305" width="210" height="50" rx="8" fill="#e2f5e9"/><text x="595" y="335" stroke="none">Calculate results</text>
+    <path d="M595 355 V385 H360 V400" marker-end="url(#a)" fill="none"/>
+    <path d="M125 355 V385 H360" fill="none"/>
+    <rect x="280" y="405" width="160" height="40" rx="20" fill="#dceeff"/><text x="360" y="430" stroke="none">STOP</text>
+  </g>
+</svg>
