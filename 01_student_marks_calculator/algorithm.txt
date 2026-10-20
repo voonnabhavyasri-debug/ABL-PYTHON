@@ -1,0 +1,10 @@
+Algorithm: Student Marks and Average Calculator
+
+1. Start.
+2. Read the student's name.
+3. Read marks for subject 1, subject 2, and subject 3.
+4. Convert the marks to numeric values.
+5. Calculate total = mark1 + mark2 + mark3.
+6. Calculate average = total / 3.
+7. Display the student's name, total, and average.
+8. Stop.
