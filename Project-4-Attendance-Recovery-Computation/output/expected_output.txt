@@ -1,0 +1,7 @@
+ATTENDANCE RECOVERY COMPUTATION
+Enter total classes held: 100
+Enter classes attended: 70
+Enter required attendance percentage: 75
+Current Attendance: 70.0 %
+Minimum consecutive classes to attend: 20
+Projected Attendance: 75.0 %
