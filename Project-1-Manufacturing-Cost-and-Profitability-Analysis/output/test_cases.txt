@@ -1,0 +1,28 @@
+PROJECT 1: MANUFACTURING COST AND PROFITABILITY ANALYSIS
+TEST CASE / SAMPLE RUN
+
+Inputs (enter one at a time in this order):
+1. Number of units produced: 100
+2. Material cost per unit: 20
+3. Labour cost per unit: 10
+4. Total wastage cost: 200
+5. Total machine cost: 500
+6. Selling price per unit: 40
+7. Target profit: 1000
+
+Expected output:
+Total Material Cost: 2000.0
+Total Labour Cost: 1000.0
+Total Wastage Cost: 200.0
+Total Machine Cost: 500.0
+Total Production Cost: 3700.0
+Cost Per Unit: 37.0
+Total Sales Revenue: 4000.0
+Total Profit: 300.0
+Profit Target Not Achieved
+
+Additional validation tests:
+- Units = 0: Invalid input
+- Wastage cost = -10: Invalid input
+
+Note: This is a text test-case record, not a screenshot of a live browser run.
