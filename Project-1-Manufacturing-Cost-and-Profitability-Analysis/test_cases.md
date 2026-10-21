@@ -1,6 +1,6 @@
 # Test Cases
 
-Use each row as a separate program run.
+Use each row as a separate program run. Enter the seven inputs in the listed order.
 
 | Test | Units | Material/unit | Labour/unit | Wastage | Machine | Selling/unit | Target profit | Expected result |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
@@ -9,6 +9,7 @@ Use each row as a separate program run.
 | 3 | 10 | 10 | 5 | 0 | 0 | 15 | 0 | Total cost 150; revenue 150; profit 0; target achieved |
 | 4 | 0 | 50 | 20 | 200 | 300 | 100 | 2000 | Invalid input |
 | 5 | 20 | 10 | 5 | -10 | 100 | 30 | 100 | Invalid input |
+| 6 | 100 | 20 | 10 | 200 | 500 | 40 | 1000 | Total cost 3700; revenue 4000; profit 300; target not achieved |
 
 ## Calculation for Test Case 1
 - Material cost = 100 × 50 = 5000
@@ -17,3 +18,11 @@ Use each row as a separate program run.
 - Sales revenue = 100 × 100 = 10000
 - Profit = 10000 − 7500 = 2500
 - Since 2500 ≥ 2000, the target is achieved.
+
+## Calculation for Test Case 6
+- Material cost = 100 × 20 = 2000
+- Labour cost = 100 × 10 = 1000
+- Total production cost = 2000 + 1000 + 200 + 500 = 3700
+- Sales revenue = 100 × 40 = 4000
+- Profit = 4000 − 3700 = 300
+- Since 300 < 1000, the target is not achieved.
