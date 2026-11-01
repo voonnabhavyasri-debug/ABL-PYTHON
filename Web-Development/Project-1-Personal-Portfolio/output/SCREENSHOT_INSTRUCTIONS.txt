@@ -1,0 +1,17 @@
+OUTPUT SCREENSHOT INSTRUCTIONS
+
+Save screenshots captured from your own browser in this folder:
+1. output-1-home.png — Home section
+2. output-2-about-education.png — About and Education
+3. output-3-skills-projects.png — Skills and Projects
+4. output-4-contact-footer.png — Contact and footer
+5. output-5-mobile-view.png — optional responsive/mobile view
+
+Windows steps:
+1. Open index.html in Chrome or Edge.
+2. Scroll to the section to capture.
+3. Press Windows + Shift + S and select the webpage area.
+4. Paste into Paint with Ctrl + V.
+5. Save as PNG using one of the filenames above.
+
+Use actual screenshots from the browser; do not mark screenshot tests complete until captured.
