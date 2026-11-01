@@ -1,0 +1,51 @@
+PROJECT 1: PERSONAL PORTFOLIO WEBSITE — TEST CASES
+
+TC01 — Open webpage
+Steps: Open index.html in Chrome or Edge.
+Expected: The portfolio page loads and styling is visible.
+
+TC02 — Navigation
+Steps: Click About, Education, Skills, Projects, and Contact.
+Expected: The page scrolls to the matching section.
+
+TC03 — Home content
+Steps: View the Home section.
+Expected: Name placeholder, role, introduction, and Contact Me button appear.
+
+TC04 — Education
+Steps: Scroll to Education.
+Expected: Two education cards appear with sample fields.
+
+TC05 — Skills
+Steps: Scroll to Technical Skills.
+Expected: Four skill labels and progress bars appear.
+
+TC06 — Projects
+Steps: Scroll to My Projects.
+Expected: Three project cards and tags appear.
+
+TC07 — Contact button
+Steps: Click Contact Me in the hero section.
+Expected: The Contact section appears.
+
+TC08 — Email link
+Steps: Click the sample email address.
+Expected: The default email app may open, depending on system settings.
+
+TC09 — Hover effects
+Steps: Hover over the Contact Me button and project cards.
+Expected: A visual hover effect appears.
+
+TC10 — Responsive layout
+Steps: Resize the browser to a narrow/mobile width.
+Expected: Cards stack in one column and navigation links wrap.
+
+TC11 — Back to top
+Steps: Click Back to top in the footer.
+Expected: The page scrolls to Home.
+
+TC12 — CSS connection
+Steps: Temporarily rename style.css and refresh, then restore its original name.
+Expected: Styling disappears when CSS is missing and returns when restored.
+
+Record PASS or FAIL only after performing each test.
